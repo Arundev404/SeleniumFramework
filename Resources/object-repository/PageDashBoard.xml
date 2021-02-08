@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageobjects>
+<locator name="Home_menu">
+		<value>xpath://*[@id="navbar"]/ul/li[1]/a</value>
+	</locator>
+	<locator name="Schedule_menu">
+		<value>xpath://*[@id="navbar"]/ul/li[2]/a</value>
+	</locator>
+	<locator name="Targets_menu">
+		<value>xpath://*[@id="navbar"]/ul/li[3]/div</value>
+	</locator>
+	<locator name="PublishingGroup_menu">
+		<value>xpath://*[@id="navbar"]/ul/li[4]/a</value>
+	</locator>
+	<locator name="Broadcast_menu">	  
+        <value>xpath://*[@id="navbar"]/ul/li[5]/a</value> 
+    </locator>
+    <locator name="Logout_btn">	  
+        <value>xpath://*[@id="navbar"]/ul/li[6]/a</value> 
+    </locator>
+    <locator name="Broadcast_overview">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/home/div/div/div[1]/div[2]/div[1]/div/div/div/div[2]/div[1]</value> 
+    </locator>
+     <locator name="PublishingGroup_overview">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/home/div/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]</value> 
+    </locator>
+    <locator name="Schedules_overview">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/home/div/div/div[1]/div[2]/div[3]/div/div/div/div[2]/div[1]</value> 
+    </locator>
+     <locator name="Reports_overview">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/home/div/div/div[1]/div[2]/div[4]/div/div[1]/div/div[2]/div[1]</value> 
+    </locator>
+</pageobjects>

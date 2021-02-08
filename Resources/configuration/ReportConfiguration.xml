@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+		
+	<configuration name="ScreenshotPath">
+		<value>/Reports/ScreenShots/</value>
+	</configuration>
+	
+	<configuration name="ReportPath">
+		<value>Reports/</value>
+	</configuration>
+	
+	<configuration name="Environment">
+		<value>QA</value>
+	</configuration>
+	
+	<configuration name="DocumentTitle">
+		<value>Cabot Test Report</value>
+	</configuration>
+	
+	<configuration name="ReportName">
+		<value>Test Report</value>
+	</configuration>
+	
+	<configuration name="ScreenshotDirectory">
+		<value>ScreenShots/</value>
+	</configuration>
+	
+	<configuration name="ZipPath">
+		<value>report_zipped</value>
+	</configuration>
+</configurations>
+
+

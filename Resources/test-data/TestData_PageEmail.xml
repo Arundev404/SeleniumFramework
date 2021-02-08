@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testData>
+	<data name="ArunJohn_username">
+		<value>Arun John</value>
+	</data>
+	<data name="ArunJohn_email">
+		<value>arun.john@ivedix.com</value>
+	</data>
+	<data name="ArunDev_username">
+		<value>Arun Dev</value>
+	</data>
+	<data name="ArunDev_email">
+		<value>arun.dev@ivedix.com</value>
+	</data>
+	<data name="Prasanth_username">
+		<value>Prasanth</value>
+	</data>
+	<data name="Prasanth_email">
+		<value>prasanth.ap@ivedix.com</value>
+	</data>
+	<data name="Parthiv_username">
+		<value>Parthiv</value>
+	</data>
+	<data name="Parthiv_email">
+		<value>pvarma@ivedix.com</value>
+	</data>
+	<data name="EmailGroup_Namerequiredmessage">
+		<value>Name is required</value>
+	</data>
+	
+</testData>

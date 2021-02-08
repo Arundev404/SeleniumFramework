@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageobjects>
+<locator name="Name_txtbox">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-panel/div/div[2]/div/div/form/div[1]/div/div[2]/input</value>
+	</locator>
+	<locator name="Schedule_drpdwn">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-panel/div/div[2]/div/div/form/div[2]/div/div[2]/p-dropdown/div/label</value>
+	</locator>
+	<locator name="Schedule_drpdwn">
+		<value>xpath://*[@formcontrolname="schedule"]</value>
+	</locator>
+	<locator name="Schedule_drpdwnvalue">
+		<value>binding://span[contains(text(),"</value>
+	</locator>
+	<locator name="Groupmail_btn">
+		<value>xpath://*[@label="Group(Email)"]</value>
+	</locator>
+	<locator name="Groupemail_drpdwn">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-dialog[1]/div/div[2]/div/div[1]/div[2]/p-multiselect/div/div[2]/label</value>
+	</locator>
+	<locator name="Groupemail_drpdwnvalue">
+		<value>binding://label[contains(text(),"</value>
+	</locator>
+	<locator name="GroupsSearchbox_dropdown">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-dialog[1]/div/div[2]/div/div[1]/div[2]/p-multiselect/div/div[4]/div[1]/div[2]/input</value>
+	</locator>
+	<locator name="Groups_checkbox">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-dialog[1]/div/div[2]/div/div[1]/div[2]/p-multiselect/div/div[4]/div[2]/ul/li[1]/div/div[2]</value>
+	</locator>
+	<locator name="Groupsclose_btn">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-dialog[1]/div/div[2]/div/div[1]/div[2]/p-multiselect/div/div[4]/div[1]/a</value>
+	</locator>
+	<locator name="TestEmail_template">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/p-dialog[1]/div/div[2]/div/div[2]/div[2]/p-datatable/div/div[1]/div/div[2]/div/table/tbody/tr[2]/td[1]/p-dtradiobutton/div/div[2]</value>
+	</locator>
+	<locator name="Search_txtbox">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/publishinggroup/div[2]/div[2]/div/input</value>
+	</locator>
+	<locator name="Add_btn">
+		<value>xpath://*[@label="Add"]</value>
+	</locator>
+	<locator name="Clear_btn">
+		<value>xpath://*[@label="Clear"]</value>
+	</locator>
+</pageobjects>

@@ -1,0 +1,9 @@
+/test-output/
+*.png
+*.html
+target/
+.project
+.classpath
+.settings/
+.DS_Store
+src/.DS_Store

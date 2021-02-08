@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageobjects>
+	<locator name="Username">
+		<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[1]/input</value>
+	</locator>
+	<locator name="Password">
+		<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[2]/input</value>
+	</locator>
+	<locator name="Settings_id">	  
+        <value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[1]/p-header/h2/i</value> 
+    </locator>
+    <locator name="Host_id">	  
+        <value>xpath://*[@formcontrolname='host']</value> 
+    </locator>
+    <locator name="Site_id">	  
+        <value>xpath://*[@formcontrolname='site']</value> 
+    </locator>
+    <locator name="Save_btn">	  
+        <value>xpath://*[@label='Save']</value> 
+    </locator>
+    <locator name="Usercredentials_errmsg">	 
+        <value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/p-messages/div</value> 
+    </locator>  
+    <locator name="Settingscredentials_errmsg">	 
+        <value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/p-messages/div/ul/li</value> 
+    </locator> 
+	<locator name="client_id">
+<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[3]/p-dropdown/div/label</value> 
+	</locator>
+	
+	<locator name="App_id">
+		<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[4]/p-dropdown/div/label</value>
+	</locator>
+	<locator name="Ivedix">
+		<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[3]/p-dropdown/div/div[4]/div/ul/li[2]</value>
+	</locator>
+	<locator name="Windows">
+		<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[4]/p-dropdown/div/div[4]/div/ul/li[3]</value>
+	</locator>
+	<locator name="LOGIN">
+		<value>xpath://html/body/app/div[2]/div[2]/div/login/div/p-panel/div/div[2]/div/div/form/div[5]/button</value>
+	</locator>
+	
+</pageobjects>

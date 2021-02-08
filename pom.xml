@@ -1,0 +1,183 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.cabotCore</groupId>
+  <artifactId>cabotCore</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ <properties>
+<suiteXmlFile>.\testng.xml</suiteXmlFile>
+</properties>
+	
+ 
+  <dependencies>
+  
+	<dependency>
+	   <groupId>org.seleniumhq.selenium</groupId>
+	   <artifactId>selenium-java</artifactId>
+	   <version>3.4.0</version>
+	</dependency>
+    <!-- https://mvnrepository.com/artifact/com.paulhammant/ngwebdriver -->
+<dependency>
+    <groupId>com.paulhammant</groupId>
+    <artifactId>ngwebdriver</artifactId>
+    <version>1.0</version>
+</dependency>
+    
+    <!-- <dependency>
+       <groupId>org.seleniumhq.selenium</groupId>
+       <artifactId>selenium-chrome-driver</artifactId>
+       <version>2.34.0</version>
+    </dependency> --> 
+    
+    <dependency>
+	  <groupId>org.testng</groupId>
+	  <artifactId>testng</artifactId>
+	  <version>6.8</version>
+	  <scope>compile</scope>
+	</dependency> 
+  
+  	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-chrome-driver</artifactId>
+	    <version>3.4.0</version>
+	</dependency>
+	
+
+	<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+	<!-- <dependency>
+	    <groupId>com.relevantcodes</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>2.41.2</version>
+	</dependency> -->
+	
+	<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+	<dependency>
+	    <groupId>com.aventstack</groupId>
+	    <artifactId>extentreports</artifactId>
+	    <version>3.0.0</version>
+	</dependency>
+		
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-remote-driver</artifactId>
+	    <version>3.4.0</version>
+	</dependency>
+	<!--  
+	<dependency>
+	    <groupId>cabot.selenium.com</groupId>
+	    <artifactId>seleniumCore</artifactId>
+	    <version>1.7</version>
+	</dependency>-->
+	<!-- https://mvnrepository.com/artifact/net.lingala.zip4j/zip4j -->
+	<dependency>
+    	<groupId>net.lingala.zip4j</groupId>
+    	<artifactId>zip4j</artifactId>
+    	<version>1.3.2</version>
+	</dependency>	
+
+  </dependencies>
+  
+  
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+      
+     
+	  <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.17</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<testFailureIgnore>true</testFailureIgnore>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>ch.fortysix</groupId>
+				<artifactId>maven-postman-plugin</artifactId>
+				<version>0.1.6</version>
+				<executions>
+					<execution>
+
+						<id>send a mail</id>
+						<phase>test</phase>
+						<goals>
+							<goal>send-mail</goal>
+						</goals>
+						<inherited>true</inherited>
+
+						<configuration>
+							<!-- From Email address -->
+							<from>testselenium36@gmail.com</from>
+
+							<!-- Email subject -->
+							<subject>Test Automation Report</subject>
+
+							<!-- Fail the build if the mail doesnt reach -->
+							<failonerror>true</failonerror>
+
+							<!-- host -->
+							<mailhost>smtp.gmail.com</mailhost>
+							<!-- port of the host -->
+							<mailport>465</mailport>
+							<mailssl>true</mailssl>
+							<mailAltConfig>true</mailAltConfig>
+
+							<!-- Email Authentication(USername and Password) -->
+							<mailuser>testselenium36@gmail.com</mailuser>
+							<mailpassword>Autob@t123</mailpassword>
+
+							<receivers>
+								<!-- To Email address -->
+								<receiver>saritha.ks@cabotsolutions.com</receiver>
+								<!--<receiver>suraj.vijayaraghavan@cabotsolutions.com</receiver>-->
+							</receivers>
+
+							<fileSets>
+								<fileSet>
+									<!-- Report directory Path -->
+									<directory>${basedir}/report_zipped</directory>
+									<includes>
+										<!-- Report file name -->
+										<include>test_report.zip</include>
+									</includes>
+									<!-- Use Regular Expressions like **/*.html if you want all the 
+										html files to send -->
+								</fileSet>
+							</fileSets>
+
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.16</version>
+				<configuration>
+					<showSuccess>true</showSuccess>
+				</configuration>
+			</plugin>
+      
+    </plugins>
+
+    
+  </build>
+  <repositories>
+      <repository>
+        <id>in-project</id>
+        <name>In Project Repo</name>
+        <url>file://${project.basedir}/repo</url>
+      </repository>
+    </repositories>
+</project>

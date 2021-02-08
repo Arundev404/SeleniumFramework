@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testscript name="Username">
+		<data key="ArunJohn" value="Arun John" />
+		<data key="ArunDev" value="ArunDev" />
+		<data key="Parthiv" value="Parthiv" />
+		<data key="Prasanth" value="Prasanth" />
+		
+</testscript>
+<testscript name="Email">
+		<data key="ArunJohn" value="arun.john@ivedix.com" />
+		<data key="ArunDev" value="arun.dev@ivedix.com" />
+		<data key="Parthiv" value="pvarma@ivedix.com" />
+		<data key="Prasanth" value="prasanth.ap@ivedix.com" />
+		
+</testscript>
+

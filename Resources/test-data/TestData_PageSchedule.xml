@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testData>
+	<data name="USER_NAME">
+		<value>unaidspublisher</value>
+	</data>
+	<data name="Invalid_USERNAME">
+		<value>sample</value>
+	</data>
+	<data name="USER_PASSWORD">
+		<value>test123</value>
+	</data>
+	<data name="Invalid_USERPASSWORD">
+		<value>test1233242</value>
+	</data>
+	<data name="Host">
+		<value>http://sandbox.ivedix.com:8080</value>
+	</data>
+	<data name="Invalid_Host">
+		<value>sample</value>
+	</data>
+	<data name="Site">
+		<value>CoreSitRoomTest</value>
+	</data>
+	<data name="Ivedix">
+		<value>Ivedix</value>
+	</data>
+	<data name="Thursday">
+		<value>Thursday</value>
+	</data>
+	<data name="Title">
+		<value>For automation</value>
+	</data>
+	<data name="Description">
+		<value>For automation Testing purpose</value>
+	</data>
+	<data name="Triggertime_errormessage">
+		<value>Trigger time is required</value>
+	</data>
+	<data name="SettingsCredential_errormessage">
+		<value>Error Message Invalid URI: The format of the URI could not be determined.</value>
+	</data>
+</testData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" thread-count="1" parallel="tests">
+	 <listeners>
+		<listener class-name="com.mipublisher.core.TestListener"></listener>
+		
+	</listeners>
+  
+  <test name="Chrome_Test">
+        <parameter name="browserName" value="chrome"></parameter>
+        <parameter name="testName" value="Chrome_Test"></parameter>
+        <classes>
+            <class name="com.mipublisher.tests.SanityTest" />
+        </classes>
+    </test> 
+  <!--        
+    <test name="Firefox_Test">
+        <parameter name="browserName" value="firefox"></parameter>
+        <parameter name="testName" value="Firefox_Test"></parameter>
+        <classes>
+            <class name="com.mipublisher.tests.SanityTest" />
+        </classes>
+    </test> -->
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+		
+	<configuration name="ObjectRepositoryFilePath">
+		<value>Resources/object-repository/</value>
+	</configuration>
+	<configuration name="TestDataFilePath">
+		<value>Resources/test-data/</value>
+	</configuration>
+	<configuration name="ResourceConfigFilePath">
+		<value>Resources/configuration/</value>
+	</configuration>
+	<configuration name="WiniumDriverPath">
+		<value>/winium/Winium.Desktop.Driver.exe</value>
+	</configuration>
+</configurations>

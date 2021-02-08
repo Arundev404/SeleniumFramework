@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageobjects>
+	<locator name="Startdate">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[3]/div[2]/p-calendar/span/input</value>
+	</locator>
+	<locator name="Enddate">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[3]/div[4]/p-calendar/span/input</value>
+	</locator>
+	<locator name="date">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[3]/div[4]/p-calendar/span/div/table/tbody/tr[5]/td[4]/a</value>
+	</locator>
+	<locator name="Host_id">	  
+<value>xpath://*[@formcontrolname='host']</value> 
+    </locator>
+    <locator name="Site_id">	  
+<value>xpath://*[@formcontrolname='site']</value> 
+    </locator>
+    <locator name="Save_btn">	  
+<value>xpath://*[@label='Save']</value> 
+    </locator>
+    <locator name="Daily">
+<value>xpath:/html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[2]</value> 
+	</locator>
+	<locator name="Weekly">
+<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[3]</value> 
+	</locator>
+	<locator name="Monthly">
+<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[4]</value> 
+	</locator>
+	<locator name="Yearly">
+<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[5]</value> 
+	</locator>
+	<locator name="Trigger_time">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[3]/p-calendar/span/input | /html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[2]/p-calendar/span/input</value>
+	</locator>
+	<locator name="Repeats">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[1]/div[2]/p-dropdown/div/label</value>
+	</locator>
+	<locator name="Repeats_Every">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/label</value>
+	</locator>
+	<locator name="Sunday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[2]</value>
+	</locator>
+	<locator name="Monday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[3]</value>
+	</locator>
+	<locator name="Tuesday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[4]</value>
+	</locator>
+	<locator name="Wednesday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[5]</value>
+	</locator>
+	<locator name="Thursday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[6]</value>
+	</locator>
+	<locator name="Friday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[7]</value>
+	</locator>
+	<locator name="Saturday">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[1]/div[2]/p-dropdown/div/div[4]/div/ul/li[8]</value>
+	</locator>
+    <locator name="Schedule_Title">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[4]/div[2]/input</value>
+	</locator>
+    <locator name="Description">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[5]/div[2]/input</value>
+	</locator>
+	 <locator name="Submit_btn">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[6]/div[2]/button</value>
+	</locator>
+    <locator name="Clear_btn">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[6]/div[3]</value>
+	</locator>
+	 <locator name="Search_bar">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[3]/div/div/input</value>
+	</locator>
+	 <locator name="maximize_btn">
+		<value>xpath://html/body/app/div[2]/div[2]/div/schedule/div[5]/p-panel/div/div[1]/a</value>
+	</locator>
+    <locator name="ErrorMessage_Triggertime">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/schedule/div[2]/div/form/p-panel/div/div[2]/div/div/div[2]/div[3]/div/div</value>
+	</locator>
+	 
+</pageobjects>

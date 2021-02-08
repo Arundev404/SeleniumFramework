@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageobjects>
+<locator name="User_tab">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/ul/li[1]/a</value>
+	</locator>
+	<locator name="Group_tab">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/ul/li[2]/a</value>
+	</locator>
+	<locator name="Email_drpdwnvalue">
+		<value>binding://span[contains(text(),"</value>
+	</locator>
+	<locator name="Emailtemplate_tab">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/ul/li[3]/a</value>
+	</locator>
+	<locator name="Name_txtbox">	  
+        <value>xpath://*[@formcontrolname='name']</value> 
+    </locator>
+    <locator name="Email_txtbox">	  
+        <value>xpath://*[@formcontrolname='email']</value> 
+    </locator>
+    <locator name="Submit_btn">	  
+        <value>xpath://*[@label='Submit']</value> 
+    </locator>
+    <locator name="Clear_btn">	  
+        <value>xpath://*[@label='Clear']</value> 
+    </locator>
+    <locator name="Minimise_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[1]/div/user/p-panel/div/div[1]/a/span</value> 
+    </locator>
+     <locator name="Searchuser_txtbox">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[1]/div/user/div[1]/div[2]/div/input</value> 
+    </locator>
+    <locator name="Addgroup_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/div[1]/div[1]/button/span[2]</value> 
+    </locator>
+     <locator name="GroupName_txtbox">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[1]/input</value> 
+    </locator>
+    <locator name="Emailsadd_dropdown">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[2]/p-dropdown/div/label</value> 
+    </locator>
+    <locator name="Emailcontainer_dropdown">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[2]/p-dropdown/div/div[4]/div/ul</value> 
+    </locator>
+    <locator name="Emailsvalue1_dropdown">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[2]/p-dropdown/div/div[4]/div/ul/li[2]</value> 
+    </locator>
+	<locator name="EmailGroup_Namerequiredmessage">
+		<value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[1]/div</value>
+	</locator>
+	
+    <locator name="add_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[2]/button/span</value> 
+    </locator>
+    <locator name="save_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[4]/button[1]/span</value> 
+    </locator>
+    <locator name="clear_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[2]/div/form/div[4]/button[2]/span</value> 
+    </locator>
+    <locator name="close_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/p-dialog[2]/div/div[1]/span/p-header/div/span[2]</value> 
+    </locator>
+    <locator name="Searchgroup_txtbox">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[2]/div/group/div[1]/div[2]/div/input</value> 
+    </locator>
+    <locator name="Salutation_txtbox">	  
+        <value>xpath://*[@formcontrolname='salutation']</value> 
+    </locator>
+    <locator name="Subject_txtbox">	  
+        <value>xpath://*[@formcontrolname='subject']</value> 
+    </locator>
+    <locator name="Description_txtbox">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[3]/div/emailtemplate/div[1]/div/p-panel/div/div[2]/div/form/div/div[3]/div[3]/p-editor/div/div[2]/div[1]</value> 
+    </locator>
+    <locator name="Signature_txtbox">	  
+        <value>xpath://*[@formcontrolname='signature']</value> 
+    </locator>
+    <locator name="Bold_icon">	  
+        <value>xpath://*[@aria-label='Bold']</value> 
+    </locator>
+    <locator name="Italic_icon">	  
+        <value>xpath://*[@aria-label='Italic']</value> 
+    </locator>
+    <locator name="Underline_icon">	  
+        <value>xpath://*[@aria-label='Underline']</value> 
+    </locator>
+     <locator name="Externallink_btn">	  
+        <value>xpath:/html/body/app/div[2]/div[2]/div/email/p-tabview/div/div/p-tabpanel[3]/div/emailtemplate/div[1]/div/p-panel/div/div[2]/div/form/div/div[5]/div[3]/p-inputswitch/div</value> 
+    </locator>
+    
+</pageobjects>
